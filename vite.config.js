@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: BASE_URL,
+        target: "https://passwordsaverbackend-mzpb.onrender.com",
         changeOrigin: true,   // 🔑 REQUIRED
         secure: false        // 🔑 REQUIRED for http
       }
