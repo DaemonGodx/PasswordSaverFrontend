@@ -18,19 +18,19 @@ const Footer = () => {
         {/* Center - Links */}
         <div className="flex gap-6">
           <a
-            href="/privacy"
+            // href="/privacy"
             className="hover:text-teal-400 transition-colors duration-200"
           >
             Privacy
           </a>
           <a
-            href="/terms"
+            // href="/terms"
             className="hover:text-teal-400 transition-colors duration-200"
           >
             Terms
           </a>
           <a
-            href="/support"
+            // href="/support"
             className="hover:text-teal-400 transition-colors duration-200"
           >
             Support
